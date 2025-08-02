@@ -199,5 +199,13 @@ layers:
 combos:
 - p: [24, 23]
   k: {t: '[', s: '{'}
+  l: [QWERTY]
 - p: [24, 25]
   k: {t: ']', s: '}'}
+  l: [QWERTY]
+- p: [8, 9]
+  k: (
+  l: [QWERTY]
+- p: [9, 10]
+  k: )
+  l: [QWERTY]
