@@ -56,11 +56,25 @@
         JK_COMBO {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <24 23>;
+            layers = <0>;
         };
 
         KL_COMBO {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <24 25>;
+            layers = <0>;
+        };
+
+        UI_COMBO {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        IO_COMBO {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 10>;
+            layers = <0>;
         };
     };
 
