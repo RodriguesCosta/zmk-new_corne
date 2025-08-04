@@ -117,7 +117,12 @@
         cmd_shift_5: cmd_shitf_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp N5>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp N5>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp N5>;
+
             label = "CMD_SHITF_5";
         };
 
