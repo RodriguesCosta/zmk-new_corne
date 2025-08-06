@@ -137,10 +137,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+<
+  - Sft+>
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PAUSE BREAK
+  - F24
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -247,14 +247,20 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [24, 23]
-  k: {t: '[', s: '{'}
+  k: '{'
   l: [QWERTY]
 - p: [24, 25]
-  k: {t: ']', s: '}'}
+  k: '}'
   l: [QWERTY]
 - p: [8, 9]
   k: (
   l: [QWERTY]
 - p: [9, 10]
   k: )
+  l: [QWERTY]
+- p: [37, 38]
+  k: {t: '[', s: '{'}
+  l: [QWERTY]
+- p: [38, 39]
+  k: {t: ']', s: '}'}
   l: [QWERTY]
