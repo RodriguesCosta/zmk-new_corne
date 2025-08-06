@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: TWO}
   - {t: '$$mdi:keyboard-return$$', h: THREE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: FOUR}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   ONE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
